@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+  
+  .width{
+    width: 80%;
+  }
+  body{
+    background: white;
+    padding: 0;
+    font-family: Arial;
+  }
+
+  .container{
+    margin: 0  auto;
+    background: #fff;
+
+  }
+
+
+
+  header {
+    
+    display: flex;
+    align-items: center;
+  
+  }
+    header> div>h1{
+      font-size: 3rem;
+      font-family: 'Times New Roman';
+      color: #264081;
+    }
+    .container{
+      max-width: 100%;
+      margin: 0  auto;
+      background: #fff;
+  
+    }
+    .search{
+      line-height: 45px; 
+      margin-top: auto;
+      margin-left: auto ;
+      padding-right: 120px;
+    }
+ 
+
+    .icon-bar {
+      width: 100%;
+      background-color: #f88d5f;
+      overflow: auto;
+      margin-top: 30px ;
+      margin-bottom: 20px;
+    }
+    
+    .icon-bar a {
+      margin: 0 auto;
+      float: left;
+      width: 20%;
+      text-align: center;
+      padding: 12px 0;
+      transition: all 0.3s ease;
+      color: white;
+      font-size: 36px;
+    }
+    
+    .icon-bar a:hover {
+      background-color: rgb(223, 110, 35);
+    }
+    
+    
+  .events{
+    height: 300px;
+  }
+
+  .event{
+    width: 100%;
+  }
+  .event>th{
+    width: 33.33%;
+    height: 10px;
+    border-bottom: 1px solid black !important;
+
+  }
+
+  
+  
+
+  .event{
+    display: flex;
+  }
+  .event div{
+    margin: 0 auto;
+    width: 33.33%;
+    height: 60px;
+    margin-left: 20px;
+   
+  }
+
+  .event img{
+    width: 100%;
+    height: auto;
+  }
+
+  span.subject::after {
+    content: "┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈";
+    display: block !important;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #4787be;
+  }
+
+ input[type="button"]{
+  margin-top: 25%;
+  width: 80px;
+  height: 30px;
+  background-color: #4787be;
+  color: #fff;
+ }
+ input[type="button"]:hover{
+  background-color: #264081;
+ }
+
+
+ footer.container{
+    background-color: #063170;
+    margin-top: 80px;
+  }
+  
+  .infors{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+   
+  }
+  .infor{
+    width: 50%;
+    margin: 10px;
+  }
+  .infor>p{
+    margin-top: 30px;
+    font-size: 20px;
+    word-spacing: 2px;
+    color: white;
+  }
+  
+  .if_left{
+    margin-left: 1px;
+  }
+  
+  .if_right{
+    margin-right: 1px;
+  }
+  .clfr{
+    color: #e07728 !important;
+    font-weight:bold;
+  }
+
+
